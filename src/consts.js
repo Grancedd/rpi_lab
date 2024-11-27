@@ -6,8 +6,21 @@ export const Status = {
 };
 
 export const StatusLabel = {
-  [Status.BACKLOG]: "Задачи",
+  [Status.BACKLOG]: "Бэклог",
   [Status.IN_PROGRESS]: "В процессе",
   [Status.DONE]: "Готово",
   [Status.TRASH]: "Корзина",
+};
+
+export const UserAction = {
+  UPDATE_TASK: "UPDATE_TASK",
+  ADD_TASK: "ADD_TASK",
+  DELETE_TASK: "DELETE_TASK",
+};
+
+export const UpdateType = {
+  PATCH: "PATCH",
+  MINOR: "MINOR",
+  MAJOR: "MAJOR",
+  INIT: "INIT",
 };
